@@ -1,0 +1,63 @@
+.caveat- {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+    background-image: url("./image/spring-blue-sky-with-clouds-shape-bird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#weather-output {
+    margin-top: 20px;
+}
+.container{
+    
+    
+}
+input{
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0fdf4;
+}
+button{
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ade80;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-around;
+   
+    background-color: #f8fafc8e;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px #f8fafc86;
+}
+.divTemp{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.logoImage{
+    margin-top: 35px;
+    width: 35px;
+    height: 35px;
+}
