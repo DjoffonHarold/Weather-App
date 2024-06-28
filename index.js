@@ -16,7 +16,7 @@ document.getElementById('weatherForm').addEventListener('click', async function(
 async function getWeatherData(location){
     const apiKey = '3373ee4d49a14d44a80174814242706'
     //const location = document.getElementById('location').value 
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
     try {
         const response = await fetch(url,{mode:'cors'})
         if(!response.ok){
